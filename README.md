@@ -71,50 +71,6 @@ Output: A structured dictionary with 3 facts, e.g.:
 
 {"fact_1": "...", "fact_2": "...", "fact_3": "..."}
 
-📤 Uploading to GitHub
-
-Initialize a Git repository
-
-git init
-
-
-Add files
-
-git add .
-
-
-Commit changes
-
-git commit -m "Initial commit with LangChain output parsing examples"
-
-
-Create a GitHub repository
-
-Go to GitHub → New Repository (e.g., langchain-output-parsing)
-
-Copy the remote repo URL
-
-Push code
-
-git remote add origin <your_repository_url>
-git branch -M main
-git push -u origin main
-
-
-Add .gitignore (recommended)
-Create a .gitignore file:
-
-.env
-__pycache__/
-*.pyc
-
-
-Commit and push it:
-
-git add .gitignore
-git commit -m "Add .gitignore"
-git push origin main
-
 📝 Notes
 
 Ensure .env contains valid API keys before running scripts.
